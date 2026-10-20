@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#181d25"/>
+  <path d="M140 330c40-110 480-110 540 0" fill="none" stroke="#f5c518" stroke-width="8"/>
+  <circle cx="250" cy="350" r="42" fill="none" stroke="#f4f1ea" stroke-width="8"/>
+  <circle cx="560" cy="350" r="42" fill="none" stroke="#f4f1ea" stroke-width="8"/>
+  <path d="M200 250h400" stroke="#2a313c" stroke-width="8"/>
+  <text x="400" y="200" text-anchor="middle" fill="#9aa3b2" font-family="Arial, sans-serif" font-size="28">Garage de la Largue</text>
+</svg>

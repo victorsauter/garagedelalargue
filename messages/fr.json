@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "Garage de la Largue — Agent Renault à Seppois-le-Bas",
+    "description": "Occasions voitures et utilitaires, mécanique toutes marques et location à Seppois-le-Bas. Agent Renault depuis 1976."
+  },
+  "nav": {
+    "home": "Accueil",
+    "stock": "Occasions",
+    "workshop": "Atelier",
+    "rental": "Location",
+    "contact": "Contact",
+    "call": "Appeler",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "cookies": "Cookies"
+  },
+  "sticky": {
+    "call": "Appeler",
+    "stock": "Occasions",
+    "hours": "Horaires",
+    "open": "Ouvert",
+    "closed": "Fermé"
+  },
+  "brand": {
+    "agent": "Agent Renault",
+    "tagline": "Depuis 1976 à Seppois-le-Bas"
+  },
+  "home": {
+    "heroTitle": "Votre garage Renault au sud de l'Alsace",
+    "heroLead": "Occasions contrôlées, mécanique toutes marques, et une équipe familiale à Seppois-le-Bas.",
+    "ctaStock": "Voir les occasions",
+    "ctaWorkshop": "Prendre rendez-vous",
+    "ctaCall": "Appeler le garage",
+    "stockTitle": "Occasions",
+    "stockLead": "Voitures et utilitaires, prêts à partir. Financement / reprise possible.",
+    "stockAll": "Tout le stock",
+    "workshopTitle": "Atelier",
+    "workshopLead": "Mécanique toutes marques, sur place. Entretien, diagnostic, réparations.",
+    "workshopCta": "Besoin d'un RDV ?",
+    "hoursTitle": "Horaires & accès",
+    "quotesTitle": "Ils nous font confiance",
+    "quotesNote": "Témoignages à remplacer par l'équipe."
+  },
+  "stock": {
+    "title": "Occasions",
+    "lead": "Voitures particulières et utilitaires d'occasion, préparés à l'atelier.",
+    "cars": "Voitures",
+    "vans": "Utilitaires",
+    "all": "Tous",
+    "filters": "Filtres",
+    "price": "Prix",
+    "minPrice": "Prix min",
+    "maxPrice": "Prix max",
+    "maxKm": "Km max",
+    "fuel": "Énergie",
+    "year": "Année min",
+    "from": "Min",
+    "to": "Max",
+    "km": "Kilométrage",
+    "apply": "Filtrer",
+    "reset": "Réinitialiser",
+    "empty": "Aucun véhicule ne correspond à votre recherche. Appelez-nous : nous avons peut-être ce qu'il vous faut.",
+    "financing": "Financement / reprise possible",
+    "reserved": "Réservé",
+    "sold": "Vendu",
+    "details": "Voir la fiche"
+  },
+  "vehicle": {
+    "specs": "Caractéristiques",
+    "year": "Année",
+    "mileage": "Kilométrage",
+    "fuel": "Énergie",
+    "gearbox": "Boîte",
+    "priceTtc": "Prix TTC",
+    "priceHt": "Prix HT",
+    "warranty": "Garantie",
+    "category": "Catégorie",
+    "inquiryTitle": "Essai, achat ou reprise",
+    "back": "Retour aux occasions",
+    "call": "Appeler pour ce véhicule",
+    "fuelEssence": "Essence",
+    "fuelDiesel": "Diesel",
+    "fuelHybrid": "Hybride",
+    "fuelElectric": "Électrique",
+    "gearManual": "Manuelle",
+    "gearAuto": "Automatique",
+    "catCars": "Voiture",
+    "catVans": "Utilitaire"
+  },
+  "workshop": {
+    "title": "Atelier mécanique",
+    "lead": "Mécanique toutes marques, réalisée sur place à Seppois-le-Bas. Entretien, diagnostic, distribution, freinage, climatisation.",
+    "points": {
+      "all": "Toutes marques, pas seulement Renault",
+      "onSite": "Atelier sur place, pas d'envoi en plateforme",
+      "rdv": "Rendez-vous en ligne ou par téléphone"
+    },
+    "formTitle": "Demander un rendez-vous"
+  },
+  "rental": {
+    "title": "Location",
+    "lead": "Besoin d'un véhicule de remplacement ou d'un utilitaire pour quelques jours ? Appelez-nous pour vérifier les disponibilités.",
+    "cta": "Appeler pour réserver",
+    "note": "Offre simple, sans grille tarifaire en ligne : on vous confirme le véhicule et le tarif au téléphone."
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Garage de la Largue, 8 rue d'Altkirch à Seppois-le-Bas.",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "weekdays": "Lundi – vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "closed": "Fermé",
+    "map": "Plan d'accès",
+    "social": "Réseaux"
+  },
+  "hours": {
+    "weekdays": "08:00–12:00 / 14:00–18:00",
+    "saturday": "08:00–12:30",
+    "sunday": "Fermé",
+    "open": "Ouvert",
+    "closed": "Fermé"
+  },
+  "fuel": {
+    "essence": "Essence",
+    "diesel": "Diesel",
+    "hybride": "Hybride",
+    "electrique": "Électrique"
+  },
+  "forms": {
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "message": "Message",
+    "date": "Date souhaitée",
+    "need": "Besoin (entretien, diagnostic…)",
+    "vehicle": "Véhicule (marque, modèle, immatriculation)",
+    "intent": "Vous souhaitez",
+    "essai": "Un essai",
+    "achat": "Acheter",
+    "reprise": "Une reprise",
+    "rgpd": "J'accepte que mes données soient utilisées pour me recontacter. Pas de newsletter.",
+    "submit": "Envoyer",
+    "sending": "Envoi…",
+    "success": "Merci. Nous vous recontactons rapidement.",
+    "error": "L'envoi a échoué. Appelez-nous au 03 89 25 65 42.",
+    "required": "Champ obligatoire"
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "legalNote": "Les pages légales restent en français."
+  }
+}

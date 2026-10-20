@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Utilitaire d'occasion">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0b0d12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect x="0" y="530" width="1200" height="220" fill="#0a0c10"/>
+  <path d="M150 500 h220 l40-110 h430 v110 h210 v80 H150 z" fill="#2c3440"/>
+  <rect x="430" y="410" width="180" height="70" fill="#1b222c"/>
+  <circle cx="310" cy="575" r="50" fill="#0b0d12" stroke="#f5c518" stroke-width="6"/>
+  <circle cx="900" cy="575" r="50" fill="#0b0d12" stroke="#f5c518" stroke-width="6"/>
+  <text x="80" y="80" fill="#f5c518" font-family="Arial, sans-serif" font-size="28" font-weight="700">GARAGE DE LA LARGUE</text>
+  <text x="80" y="120" fill="#f4f1ea" font-family="Arial, sans-serif" font-size="42" font-weight="700">Utilitaire</text>
+</svg>

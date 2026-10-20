@@ -1,0 +1,96 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Production (Neon Postgres): keep this schema SQLite-friendly (no Prisma enums,
+// no @db.Text). Switch provider to "postgresql" and DATABASE_URL to the Neon
+// connection string. See docs/adr/0003-postgres-prisma.md and docs/operations/env-vars.md.
+
+model StaffUser {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  name         String
+  passwordHash String
+  createdAt    DateTime @default(now())
+}
+
+model Vehicle {
+  id              String   @id @default(cuid())
+  slug            String   @unique
+  status          String   @default("draft") // draft | published | reserved | sold
+  category        String // voitures | utilitaires
+  brand           String
+  model           String
+  version         String?
+  year            Int
+  mileageKm       Int
+  fuel            String // essence | diesel | hybride | electrique | gpl
+  gearbox         String // manuelle | automatique
+  priceTtcCents   Int
+  priceHtCents    Int?
+  warranty        String?
+  descriptionFr   String
+  leboncoinUrl    String?
+  facebookPostId  String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  photos          VehiclePhoto[]
+  translations    VehicleTranslation[]
+  inquiries       Inquiry[]
+  publishLogs     PublishLog[]
+}
+
+model VehiclePhoto {
+  id        String  @id @default(cuid())
+  vehicleId String
+  vehicle   Vehicle @relation(fields: [vehicleId], references: [id], onDelete: Cascade)
+  url       String
+  alt       String?
+  sortOrder Int     @default(0)
+}
+
+model VehicleTranslation {
+  id          String  @id @default(cuid())
+  vehicleId   String
+  vehicle     Vehicle @relation(fields: [vehicleId], references: [id], onDelete: Cascade)
+  locale      String // de | en
+  description String
+
+  @@unique([vehicleId, locale])
+}
+
+model Inquiry {
+  id            String   @id @default(cuid())
+  type          String // rdv | essai | achat | reprise
+  name          String
+  email         String
+  phone         String?
+  message       String
+  preferredDate String?
+  vehicleNeed   String?
+  vehicleId     String?
+  vehicle       Vehicle? @relation(fields: [vehicleId], references: [id])
+  rgpdConsent   Boolean
+  emailed       Boolean  @default(false)
+  createdAt     DateTime @default(now())
+}
+
+model PublishLog {
+  id        String   @id @default(cuid())
+  vehicleId String
+  vehicle   Vehicle  @relation(fields: [vehicleId], references: [id], onDelete: Cascade)
+  channel   String // facebook | leboncoin
+  status    String // success | error | prepared
+  detail    String?
+  createdAt DateTime @default(now())
+}
+
+model Setting {
+  key   String @id
+  value String
+}

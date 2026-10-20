@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "Garage de la Largue — Renault-Vertretung in Seppois-le-Bas",
+    "description": "Gebrauchtwagen und Nutzfahrzeuge, Werkstatt für alle Marken und Vermietung in Seppois-le-Bas. Renault-Vertretung seit 1976."
+  },
+  "nav": {
+    "home": "Start",
+    "stock": "Gebrauchtwagen",
+    "workshop": "Werkstatt",
+    "rental": "Vermietung",
+    "contact": "Kontakt",
+    "call": "Anrufen",
+    "legal": "Impressum",
+    "privacy": "Datenschutz",
+    "cookies": "Cookies"
+  },
+  "sticky": {
+    "call": "Anrufen",
+    "stock": "Fahrzeuge",
+    "hours": "Öffnungszeiten",
+    "open": "Geöffnet",
+    "closed": "Geschlossen"
+  },
+  "brand": {
+    "agent": "Renault-Vertretung",
+    "tagline": "Seit 1976 in Seppois-le-Bas"
+  },
+  "home": {
+    "heroTitle": "Ihre Renault-Werkstatt im Südelsass",
+    "heroLead": "Geprüfte Gebrauchtwagen, Mechanik aller Marken und ein Familienbetrieb in Seppois-le-Bas.",
+    "ctaStock": "Fahrzeuge ansehen",
+    "ctaWorkshop": "Termin vereinbaren",
+    "ctaCall": "Garage anrufen",
+    "stockTitle": "Gebrauchtwagen",
+    "stockLead": "Pkw und Nutzfahrzeuge, fahrbereit. Finanzierung / Inzahlungnahme möglich.",
+    "stockAll": "Zum Bestand",
+    "workshopTitle": "Werkstatt",
+    "workshopLead": "Mechanik aller Marken, vor Ort. Wartung, Diagnose, Reparaturen.",
+    "workshopCta": "Termin nötig?",
+    "hoursTitle": "Öffnungszeiten & Anfahrt",
+    "quotesTitle": "Das sagen Kunden",
+    "quotesNote": "Platzhalter-Zitate, vom Team ersetzbar."
+  },
+  "stock": {
+    "title": "Gebrauchtwagen",
+    "lead": "Pkw und Nutzfahrzeuge, in der Werkstatt vorbereitet.",
+    "cars": "Pkw",
+    "vans": "Nutzfahrzeuge",
+    "all": "Alle",
+    "filters": "Filter",
+    "price": "Preis",
+    "minPrice": "Preis min.",
+    "maxPrice": "Preis max.",
+    "maxKm": "Km max.",
+    "fuel": "Kraftstoff",
+    "year": "Jahr min.",
+    "from": "Min",
+    "to": "Max",
+    "km": "Kilometer",
+    "apply": "Filtern",
+    "reset": "Zurücksetzen",
+    "empty": "Kein Fahrzeug entspricht Ihrer Suche. Rufen Sie uns an — vielleicht haben wir das Passende.",
+    "financing": "Finanzierung / Inzahlungnahme möglich",
+    "reserved": "Reserviert",
+    "sold": "Verkauft",
+    "details": "Zum Fahrzeug"
+  },
+  "vehicle": {
+    "specs": "Daten",
+    "year": "Jahr",
+    "mileage": "Kilometerstand",
+    "fuel": "Kraftstoff",
+    "gearbox": "Getriebe",
+    "priceTtc": "Preis inkl. MwSt.",
+    "priceHt": "Preis zzgl. MwSt.",
+    "warranty": "Garantie",
+    "category": "Kategorie",
+    "inquiryTitle": "Probefahrt, Kauf oder Inzahlungnahme",
+    "back": "Zurück zur Übersicht",
+    "call": "Wegen dieses Fahrzeugs anrufen",
+    "fuelEssence": "Benzin",
+    "fuelDiesel": "Diesel",
+    "fuelHybrid": "Hybrid",
+    "fuelElectric": "Elektro",
+    "gearManual": "Schaltgetriebe",
+    "gearAuto": "Automatik",
+    "catCars": "Pkw",
+    "catVans": "Nutzfahrzeug"
+  },
+  "workshop": {
+    "title": "Mechanik-Werkstatt",
+    "lead": "Mechanik aller Marken, vor Ort in Seppois-le-Bas. Wartung, Diagnose, Steuerkette, Bremsen, Klimaanlage.",
+    "points": {
+      "all": "Alle Marken, nicht nur Renault",
+      "onSite": "Werkstatt vor Ort, keine Plattform",
+      "rdv": "Termin online oder telefonisch"
+    },
+    "formTitle": "Termin anfragen"
+  },
+  "rental": {
+    "title": "Vermietung",
+    "lead": "Ersatzwagen oder Transporter für ein paar Tage? Rufen Sie uns an, wir prüfen die Verfügbarkeit.",
+    "cta": "Zur Reservierung anrufen",
+    "note": "Einfaches Angebot ohne Online-Preisliste: Fahrzeug und Tarif bestätigen wir am Telefon."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Garage de la Largue, 8 rue d'Altkirch in Seppois-le-Bas.",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "hours": "Öffnungszeiten",
+    "weekdays": "Montag – Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "closed": "Geschlossen",
+    "map": "Anfahrt",
+    "social": "Netzwerke"
+  },
+  "hours": {
+    "weekdays": "08:00–12:00 / 14:00–18:00",
+    "saturday": "08:00–12:30",
+    "sunday": "Geschlossen",
+    "open": "Geöffnet",
+    "closed": "Geschlossen"
+  },
+  "fuel": {
+    "essence": "Benzin",
+    "diesel": "Diesel",
+    "hybride": "Hybrid",
+    "electrique": "Elektro"
+  },
+  "forms": {
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "date": "Wunschdatum",
+    "need": "Anliegen (Wartung, Diagnose…)",
+    "vehicle": "Fahrzeug (Marke, Modell, Kennzeichen)",
+    "intent": "Sie möchten",
+    "essai": "Probefahrt",
+    "achat": "Kaufen",
+    "reprise": "Inzahlungnahme",
+    "rgpd": "Ich bin einverstanden, dass meine Daten zur Kontaktaufnahme verwendet werden. Kein Newsletter.",
+    "submit": "Senden",
+    "sending": "Senden…",
+    "success": "Danke. Wir melden uns schnell.",
+    "error": "Senden fehlgeschlagen. Rufen Sie uns an: 03 89 25 65 42.",
+    "required": "Pflichtfeld"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "legalNote": "Die Rechtstexte bleiben auf Französisch."
+  }
+}

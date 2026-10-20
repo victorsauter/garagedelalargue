@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "Garage de la Largue — Renault agent in Seppois-le-Bas",
+    "description": "Used cars and vans, all-make workshop and simple rental in Seppois-le-Bas. Renault agent since 1976."
+  },
+  "nav": {
+    "home": "Home",
+    "stock": "Used cars",
+    "workshop": "Workshop",
+    "rental": "Rental",
+    "contact": "Contact",
+    "call": "Call",
+    "legal": "Legal notice",
+    "privacy": "Privacy",
+    "cookies": "Cookies"
+  },
+  "sticky": {
+    "call": "Call",
+    "stock": "Stock",
+    "hours": "Hours",
+    "open": "Open",
+    "closed": "Closed"
+  },
+  "brand": {
+    "agent": "Renault agent",
+    "tagline": "Since 1976 in Seppois-le-Bas"
+  },
+  "home": {
+    "heroTitle": "Your Renault garage in southern Alsace",
+    "heroLead": "Prepared used cars, all-make mechanics, and a family team in Seppois-le-Bas.",
+    "ctaStock": "Browse stock",
+    "ctaWorkshop": "Book a visit",
+    "ctaCall": "Call the garage",
+    "stockTitle": "Used cars",
+    "stockLead": "Cars and vans, ready to go. Finance / part-exchange available.",
+    "stockAll": "See all stock",
+    "workshopTitle": "Workshop",
+    "workshopLead": "All-make mechanics on site. Servicing, diagnostics, repairs.",
+    "workshopCta": "Need an appointment?",
+    "hoursTitle": "Hours & directions",
+    "quotesTitle": "What customers say",
+    "quotesNote": "Placeholder quotes for staff to replace."
+  },
+  "stock": {
+    "title": "Used cars",
+    "lead": "Passenger cars and vans, prepared in our workshop.",
+    "cars": "Cars",
+    "vans": "Vans",
+    "all": "All",
+    "filters": "Filters",
+    "price": "Price",
+    "minPrice": "Min price",
+    "maxPrice": "Max price",
+    "maxKm": "Max km",
+    "fuel": "Fuel",
+    "year": "Min year",
+    "from": "Min",
+    "to": "Max",
+    "km": "Mileage",
+    "apply": "Apply",
+    "reset": "Reset",
+    "empty": "No vehicle matches your search. Call us — we may have what you need.",
+    "financing": "Finance / part-exchange available",
+    "reserved": "Reserved",
+    "sold": "Sold",
+    "details": "View details"
+  },
+  "vehicle": {
+    "specs": "Specifications",
+    "year": "Year",
+    "mileage": "Mileage",
+    "fuel": "Fuel",
+    "gearbox": "Gearbox",
+    "priceTtc": "Price incl. VAT",
+    "priceHt": "Price excl. VAT",
+    "warranty": "Warranty",
+    "category": "Category",
+    "inquiryTitle": "Test drive, purchase or part-exchange",
+    "back": "Back to stock",
+    "call": "Call about this vehicle",
+    "fuelEssence": "Petrol",
+    "fuelDiesel": "Diesel",
+    "fuelHybrid": "Hybrid",
+    "fuelElectric": "Electric",
+    "gearManual": "Manual",
+    "gearAuto": "Automatic",
+    "catCars": "Car",
+    "catVans": "Van"
+  },
+  "workshop": {
+    "title": "Workshop",
+    "lead": "All-make mechanics on site in Seppois-le-Bas. Servicing, diagnostics, timing belts, brakes, air-con.",
+    "points": {
+      "all": "All makes, not only Renault",
+      "onSite": "On-site workshop, no off-site platform",
+      "rdv": "Book online or by phone"
+    },
+    "formTitle": "Request an appointment"
+  },
+  "rental": {
+    "title": "Rental",
+    "lead": "Need a courtesy car or a van for a few days? Call us to check availability.",
+    "cta": "Call to book",
+    "note": "Simple offer, no online price grid: we confirm the vehicle and rate by phone."
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Garage de la Largue, 8 rue d'Altkirch in Seppois-le-Bas.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Opening hours",
+    "weekdays": "Monday – Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "map": "Map",
+    "social": "Social"
+  },
+  "hours": {
+    "weekdays": "08:00–12:00 / 14:00–18:00",
+    "saturday": "08:00–12:30",
+    "sunday": "Closed",
+    "open": "Open",
+    "closed": "Closed"
+  },
+  "fuel": {
+    "essence": "Petrol",
+    "diesel": "Diesel",
+    "hybride": "Hybrid",
+    "electrique": "Electric"
+  },
+  "forms": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "date": "Preferred date",
+    "need": "Need (service, diagnostics…)",
+    "vehicle": "Vehicle (make, model, plate)",
+    "intent": "You would like",
+    "essai": "A test drive",
+    "achat": "To buy",
+    "reprise": "Part-exchange",
+    "rgpd": "I agree that my details are used to contact me. No newsletter.",
+    "submit": "Send",
+    "sending": "Sending…",
+    "success": "Thank you. We will get back to you shortly.",
+    "error": "Sending failed. Call us on 03 89 25 65 42.",
+    "required": "Required"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "legalNote": "Legal pages remain in French."
+  }
+}
